@@ -25,5 +25,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-    console.log(`Сервер запущен на http://${hostname}:${port}/`);
+    console.log(`Сервер запущен на http://${hostname}:${port}/products`);
 });
